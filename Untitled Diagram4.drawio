@@ -1,33 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T06:25:42.626Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="TWHZBXSORKCAJsmQsR2S" version="16.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-19T06:29:28.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="SZvv35XQs-LLG5AfhhfK" version="16.3.0" type="github" pages="3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9wQKkVhoomo78e1nBSGg-1" value="La64" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="9wQKkVhoomo78e1nBSGg-1" value="La64" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="140" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="9wQKkVhoomo78e1nBSGg-2" value="向量化异常" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="9wQKkVhoomo78e1nBSGg-1" vertex="1">
+        <mxCell id="9wQKkVhoomo78e1nBSGg-2" value="向量化异常" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9wQKkVhoomo78e1nBSGg-1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9wQKkVhoomo78e1nBSGg-3" value="丰富的中断类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="9wQKkVhoomo78e1nBSGg-1" vertex="1">
+        <mxCell id="9wQKkVhoomo78e1nBSGg-3" value="丰富的中断类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9wQKkVhoomo78e1nBSGg-1">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9wQKkVhoomo78e1nBSGg-5" value="La32" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="9wQKkVhoomo78e1nBSGg-5" value="La32" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="304" y="140" width="220" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="9wQKkVhoomo78e1nBSGg-6" value="统一异常入口，二次分发" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="9wQKkVhoomo78e1nBSGg-5" vertex="1">
+        <mxCell id="9wQKkVhoomo78e1nBSGg-6" value="统一异常入口，二次分发" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9wQKkVhoomo78e1nBSGg-5">
           <mxGeometry y="30" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9wQKkVhoomo78e1nBSGg-7" value="基础的核上中断，支持时钟中断和串口" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="9wQKkVhoomo78e1nBSGg-5" vertex="1">
+        <mxCell id="9wQKkVhoomo78e1nBSGg-7" value="基础的核上中断，支持时钟中断和串口" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9wQKkVhoomo78e1nBSGg-5">
           <mxGeometry y="60" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9wQKkVhoomo78e1nBSGg-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="9wQKkVhoomo78e1nBSGg-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="190" as="sourcePoint" />
             <mxPoint x="290" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TXMDhpJacfGzErNzZ-Cz" name="Page-2">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0Bhq39Zybji4UWPnPLjT-0" />
+        <mxCell id="0Bhq39Zybji4UWPnPLjT-1" parent="0Bhq39Zybji4UWPnPLjT-0" />
+        <mxCell id="0Bhq39Zybji4UWPnPLjT-2" value="3A6000" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="0Bhq39Zybji4UWPnPLjT-1">
+          <mxGeometry x="50" y="140" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0Bhq39Zybji4UWPnPLjT-3" value="Host MSI中断：不重映射" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="0Bhq39Zybji4UWPnPLjT-2">
+          <mxGeometry y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Bhq39Zybji4UWPnPLjT-4" value="Guest MSI    ：重映射" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="0Bhq39Zybji4UWPnPLjT-2">
+          <mxGeometry y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Bhq39Zybji4UWPnPLjT-5" value="软件实现" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="0Bhq39Zybji4UWPnPLjT-1">
+          <mxGeometry x="304" y="140" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0Bhq39Zybji4UWPnPLjT-6" value="Host MSI 伪装成Guest MSI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="0Bhq39Zybji4UWPnPLjT-5">
+          <mxGeometry y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Bhq39Zybji4UWPnPLjT-7" value="利用网卡中断，初步测试重映射模块是否功能正常" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="0Bhq39Zybji4UWPnPLjT-5">
+          <mxGeometry y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Bhq39Zybji4UWPnPLjT-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="0Bhq39Zybji4UWPnPLjT-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="190" as="sourcePoint" />
+            <mxPoint x="290" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JeV-av3dY0cit_idGuxV" name="Page-3">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="zRDm8G0gu6BA42xGudTy-0" />
+        <mxCell id="zRDm8G0gu6BA42xGudTy-1" parent="zRDm8G0gu6BA42xGudTy-0" />
       </root>
     </mxGraphModel>
   </diagram>
