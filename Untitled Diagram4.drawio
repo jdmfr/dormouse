@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T03:31:56.544Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" version="16.3.0" etag="2WXDd8gwOnca86kWnsQL" type="github"><diagram id="IoGtfu-g3udauDbokZag">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-19T03:42:50.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="vDXvCkYgRImu0yi88SNW" version="16.3.0" type="github">
+  <diagram id="IoGtfu-g3udauDbokZag" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uNCJ_4uM_VdbS4XPS-tw-1" value="Step1" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="140" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uNCJ_4uM_VdbS4XPS-tw-2" value="Step2" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="250" y="210" width="140" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uNCJ_4uM_VdbS4XPS-tw-10" value="启动一个fork小程序&lt;br&gt;验证&lt;font color=&quot;#ff0000&quot;&gt;sys_clone&lt;/font&gt;系统&lt;br&gt;调用，COW等与页&lt;br&gt;表相关的功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="uNCJ_4uM_VdbS4XPS-tw-2">
+          <mxGeometry y="65" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uNCJ_4uM_VdbS4XPS-tw-3" value="Step3" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="460" y="210" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uNCJ_4uM_VdbS4XPS-tw-6" value="启动&lt;font color=&quot;#ff0000&quot;&gt;busybox&lt;/font&gt;，集成了一&lt;br style=&quot;font-size: 14px&quot;&gt;个shell和许多Unix工具" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="uNCJ_4uM_VdbS4XPS-tw-3">
+          <mxGeometry x="10" y="80" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uNCJ_4uM_VdbS4XPS-tw-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12;endSize=6;startArrow=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="310" as="sourcePoint" />
+            <mxPoint x="240" y="309.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNCJ_4uM_VdbS4XPS-tw-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12;endSize=6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="309.5" as="sourcePoint" />
+            <mxPoint x="450" y="309.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNCJ_4uM_VdbS4XPS-tw-8" value="启动一个&lt;font color=&quot;#ff0000&quot;&gt;helloworld&lt;/font&gt;，&lt;br&gt;验证用户态的串口&lt;br&gt;打印，基础的系统&lt;br&gt;调用" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="275" width="150" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
