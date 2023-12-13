@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T06:44:33.454Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15" etag="X_g5FgjDaIjjWr52AfHv" version="22.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-13T07:17:58.335Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15" etag="yBz5k866Vte35mXkjWj_" version="22.1.8" type="github" pages="2">
   <diagram name="第 1 页" id="iyDq_UkxGM9id6cZQhgn">
     <mxGraphModel dx="1060" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -267,7 +267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="s5LW_FPPLR0F7l7ZSowT" name="第 2 页">
-    <mxGraphModel dx="954" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="658" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -352,6 +352,9 @@
         <mxCell id="juonyj_XO2zO8RrftihH-22" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="360" width="80" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="juonyj_XO2zO8RrftihH-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="juonyj_XO2zO8RrftihH-23" target="juonyj_XO2zO8RrftihH-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="juonyj_XO2zO8RrftihH-23" value="user_data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="380" width="80" height="20" as="geometry" />
         </mxCell>
@@ -421,7 +424,7 @@
         <mxCell id="juonyj_XO2zO8RrftihH-64" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="370" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="juonyj_XO2zO8RrftihH-65" value="" style="endArrow=none;dashed=1;html=1;entryX=0.138;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="juonyj_XO2zO8RrftihH-70" target="juonyj_XO2zO8RrftihH-67">
+        <mxCell id="juonyj_XO2zO8RrftihH-65" value="" style="endArrow=none;dashed=1;html=1;entryX=0.376;entryY=1.148;entryDx=0;entryDy=0;strokeColor=default;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="juonyj_XO2zO8RrftihH-70" target="juonyj_XO2zO8RrftihH-67">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="670" as="sourcePoint" />
             <mxPoint x="440" y="520" as="targetPoint" />
@@ -436,8 +439,8 @@
         <mxCell id="juonyj_XO2zO8RrftihH-70" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="655" width="240" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="juonyj_XO2zO8RrftihH-67" value="Nvme Queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="460" width="80" height="30" as="geometry" />
+        <mxCell id="juonyj_XO2zO8RrftihH-67" value="Nvme User Queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="juonyj_XO2zO8RrftihH-68" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="360" width="80" height="20" as="geometry" />
@@ -456,6 +459,50 @@
         </mxCell>
         <mxCell id="juonyj_XO2zO8RrftihH-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="juonyj_XO2zO8RrftihH-12" target="juonyj_XO2zO8RrftihH-12">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="juonyj_XO2zO8RrftihH-79" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="430" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="juonyj_XO2zO8RrftihH-77" value="request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="440" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="juonyj_XO2zO8RrftihH-78" value="nvme cmd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="440" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="juonyj_XO2zO8RrftihH-80" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="juonyj_XO2zO8RrftihH-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="449.73" as="sourcePoint" />
+            <mxPoint x="380" y="399.73" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="450" />
+              <mxPoint x="350" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="juonyj_XO2zO8RrftihH-85" value="" style="endArrow=none;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="juonyj_XO2zO8RrftihH-69" target="juonyj_XO2zO8RrftihH-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="459.73" as="sourcePoint" />
+            <mxPoint x="380" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="410" />
+              <mxPoint x="210" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="juonyj_XO2zO8RrftihH-86" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="289.65999999999997" y="470" as="sourcePoint" />
+            <mxPoint x="290" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="juonyj_XO2zO8RrftihH-87" value="queue_rq()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="625" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="juonyj_XO2zO8RrftihH-88" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="470" as="sourcePoint" />
+            <mxPoint x="530.34" y="650" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
