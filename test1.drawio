@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17" pages="7">
   <diagram name="第 1 页" id="iyDq_UkxGM9id6cZQhgn">
     <mxGraphModel dx="838" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -738,6 +738,50 @@
         </mxCell>
         <mxCell id="P0_FVsTpQRkLQWlojjUc-6" value="需要写入/读出的数据长度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="152.5" width="370" height="15" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="N9eVp8_m23tvR49Uilzu" name="第 7 页">
+    <mxGraphModel dx="1114" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4bECA8jk8s88Ze5EW8Z1-1" value="type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4bECA8jk8s88Ze5EW8Z1-2" value="data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4bECA8jk8s88Ze5EW8Z1-3" value="ioprio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4bECA8jk8s88Ze5EW8Z1-4" value="sector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4bECA8jk8s88Ze5EW8Z1-5" value="data_len" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="150" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4bECA8jk8s88Ze5EW8Z1-6" value="flag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4bECA8jk8s88Ze5EW8Z1-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="210" y="70" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4bECA8jk8s88Ze5EW8Z1-8" value="user_defined_cmd" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4bECA8jk8s88Ze5EW8Z1-9" value="out_hdr" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xZD68iladv1iE8LfSk3H-1" value="0:表示非向量类读写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GV7AtPutBBBi78FlsMkb-1" value="待写入文件的数据保存地址/从文件读取数据内容的保存地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="135" width="370" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="GV7AtPutBBBi78FlsMkb-2" value="需要写入/读出的数据长度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="155" width="370" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
