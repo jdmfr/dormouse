@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17" pages="9">
   <diagram name="第 1 页" id="iyDq_UkxGM9id6cZQhgn">
-    <mxGraphModel dx="1114" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -648,6 +648,15 @@
         <mxCell id="k1kAkEdtTH8XcZyjobAD-11" value="virtblk_req" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="15" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vKXg-qCfDrf2qtyNx8eS-1" value="用户定义" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF6112;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vKXg-qCfDrf2qtyNx8eS-3" value="转换后暂存进通用IO请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF6112;" vertex="1" parent="1">
+          <mxGeometry x="375.25" y="45" width="136.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vKXg-qCfDrf2qtyNx8eS-4" value="IO完成时后端填充" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="45" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -743,7 +752,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="N9eVp8_m23tvR49Uilzu" name="第 7 页">
-    <mxGraphModel dx="1114" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -820,7 +829,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oeqpcX6Fqp11TIyBZnlT" name="第 8 页">
-    <mxGraphModel dx="1114" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1069,7 +1078,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="du0z0F6vMrcbV2PmbTFe" name="第 9 页">
-    <mxGraphModel dx="1114" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
