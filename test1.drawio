@@ -1032,7 +1032,7 @@
         <mxCell id="QV_4Fwgv9C3t_XuILPWQ-73" value="virtqueue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="580" y="690" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QV_4Fwgv9C3t_XuILPWQ-74" value="通用I/O请求" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="QV_4Fwgv9C3t_XuILPWQ-74" value="struct request" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="570" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QV_4Fwgv9C3t_XuILPWQ-75" value="virtblk uring command" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
