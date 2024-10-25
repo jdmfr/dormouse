@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2" pages="11">
   <diagram name="第 1 页" id="iyDq_UkxGM9id6cZQhgn">
     <mxGraphModel dx="750" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1278,6 +1278,65 @@
         </mxCell>
         <mxCell id="JRYE9mOA0Fspfa6ExRP_-35" value="请求类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="210" y="85" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OqaDY0g4UpWF3cS60VVX" name="第 11 页">
+    <mxGraphModel dx="1061" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k3-AxavIWr81FEZHvNwG-1" value="user_process" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="20" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3-AxavIWr81FEZHvNwG-3" target="k3-AxavIWr81FEZHvNwG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-5" value="VFS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="100" as="sourcePoint" />
+            <mxPoint x="710" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-7" value="Userspace" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-9" value="kernel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-10" value="ext4/xfs..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-12" value="virtio-blk driver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="430" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="k3-AxavIWr81FEZHvNwG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="160" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-17" value="block" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-18" value="sys_write/sys_read..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="155" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-20" value="blkdev" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k3-AxavIWr81FEZHvNwG-22" value="Bio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
